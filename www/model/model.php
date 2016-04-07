@@ -869,7 +869,6 @@ function add_site(){
 				$_SESSION['info']['res'] .= "</div>";
 				//Создаем сессионную переменную с идом магазина.
 				$_SESSION['auth']['site_id'] = mysql_insert_id();
-				$_SESSION['auth']['path'] = $m_path;
 			}else{
 				$_SESSION['info']['res'] = "<div class='panel panel-danger'>";
 				$_SESSION['info']['res'] .= "<div class='panel-heading'>Ошибка</div>";

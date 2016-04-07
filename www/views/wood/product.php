@@ -13,7 +13,9 @@
 <h3 class="text-primary"><?=$goods['name']?></h3>
 
 <div class="picture" >
+	<a data-lightbox="example-set" title="<?=$goods['name']?>" href="<?=PATH.str_replace('/m_','/',$goods['pic'])?>" />
 	<img src="<?=PATH.$goods['pic']?>"  />
+	</a>
 </div>
 
 <div class="short-opais">
@@ -28,7 +30,7 @@
 <div class="item_gallery">
    <div class="item_thumbs">
    <?php foreach($goods_pic as $img): ?>
-       <a data-lightbox="example-set" title="<?=$goods['name']?>" href="<?=PATH.$img['pic_path'].$img['pic_name']?>" />
+       <a data-lightbox="example-set" title="<?= $img['name'] ? $img['name'] : $goods['name'] ?>" href="<?=PATH.$img['pic_path'].$img['pic_name']?>" />
 		<img id='pic_<?=$img['pic_id']?>' src='<?=PATH.$img['pic_path']."t_".$img['pic_name']?>' width=90 height=90>
 	   </a>
    <?php endforeach; ?>
