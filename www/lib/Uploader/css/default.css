@@ -1,0 +1,15 @@
+body {
+	font: 12px Verdana, Helvetica, sans-serif;
+}
+#demo {
+    margin: 50px auto;
+    width: 600px;
+}
+#fileQueue {
+
+
+	margin-bottom: 10px;
+}
+#info, #info2 {
+    font-weight: 700; line-height: 130%;
+}

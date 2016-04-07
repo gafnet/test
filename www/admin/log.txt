@@ -1,0 +1,5 @@
+
+ SQL - INSERT INTO files (galery_id, file_nam, file_comment, path, path_small, type, size, pk_user) 
+						VALUES (1, '1446498977_608.jpg', 
+						'dddddd', '', '','jpg', 
+						115.0107421875, 1)

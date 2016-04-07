@@ -1,0 +1,24 @@
+AddDefaultCharset utf-8
+php_flag magic_quotes_gpc Off
+ErrorDocument 404 /page404.html
+
+RewriteEngine On
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^page/(\d+)/?$ index.php?view=page&page_id=$1
+RewriteRule ^galery/(\d+)/?$ index.php?view=galery&galery_id=$1
+RewriteRule ^(hits|new|sale)/?$ index.php?view=$1
+
+RewriteRule ^news/(\d+)/?$ index.php?view=news&news_id=$1
+RewriteRule ^archive/?$ index.php?view=archive
+RewriteRule ^archive/page=(\d+)?/?$ index.php?view=archive&page=$1
+RewriteRule ^informer/(\d+)/?$ index.php?view=informer&informer_id=$1
+RewriteRule ^product/(\d+)/?$ index.php?view=product&goods_id=$1
+RewriteRule ^addtocart/(\d+)/?$ index.php?view=addtocart&goods_id=$1
+RewriteRule ^reg/?$ index.php?view=reg
+RewriteRule ^mail/?$ index.php?view=mail
+RewriteRule ^cart/?$ index.php?view=cart
+RewriteRule ^cart/qty=(\d+)/id=(\d+)/?$ index.php?view=cart&qty=$1&id=$2
+
+php_value upload_max_filesize 10M
+php_value post_max_size 12M

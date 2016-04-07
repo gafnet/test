@@ -1,0 +1,4 @@
+
+ init sesion 
+ init sesion OK
+ init dbcontroller 

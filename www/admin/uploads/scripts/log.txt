@@ -1,0 +1,8 @@
+
+ Зашли в файл загрузки
+ QUERY_STRING - 
+ DB - 
+ PATH - PATH
+ SQL - INSERT INTO files (galery_id, file_nam, path, path_small, type, size, pk_user) 
+						VALUES (1, 'misha.jpg', '/userfiles/galeres/1446492087_580.jpg', '/userfiles/galeres/thumb/1446492087_580.jpg','jpg', 222.20703125, 1)
+ Error - 
