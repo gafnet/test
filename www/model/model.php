@@ -639,7 +639,7 @@ function mail_order($order_id, $email){
     $subject = "Заказ в интернет-магазине";
     // заголовки
     $headers .= "Content-type: text/plain; charset=utf-8\r\n";
-    $headers .= "From: ISHOP";
+    $headers .= "From: WoodHand";
     // тело письма
     $mail_body = "Благодарим Вас за заказ!\r\nНомер Вашего заказа - {$order_id}
     \r\n\r\nЗаказанные товары:\r\n";

@@ -8,10 +8,10 @@ CKEDITOR.editorConfig = function( config )
 	// Define changes to default configuration here. For example:
 	// config.language = 'fr';
 	// config.uiColor = '#AADC6E';
-    config.filebrowserBrowseUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/browse.php?type=files';
-    config.filebrowserImageBrowseUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/browse.php?type=images';
-    config.filebrowserFlashBrowseUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/browse.php?type=flash';
-    config.filebrowserUploadUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/upload.php?type=files';
-    config.filebrowserImageUploadUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/upload.php?type=images';
-    config.filebrowserFlashUploadUrl = 'http://elgazstr.ru/admin/templates/js/kcfinder/upload.php?type=flash';    
+    config.filebrowserBrowseUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/browse.php?type=files';
+    config.filebrowserImageBrowseUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/browse.php?type=images';
+    config.filebrowserFlashBrowseUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/browse.php?type=flash';
+    config.filebrowserUploadUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/upload.php?type=files';
+    config.filebrowserImageUploadUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/upload.php?type=images';
+    config.filebrowserFlashUploadUrl = 'http://woodhand.ru/admin/templates/js/kcfinder/upload.php?type=flash';    
 };

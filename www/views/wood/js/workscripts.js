@@ -637,8 +637,10 @@ $(".del_tovar").click(function (e){
 	}
 )
 
-    
-    
+//Для главной страницы устанавливаем высоту блоков по васоте работы с наименованиями.
+var height_title_block = $(".div_g").height();
+$(".div_title_p").height(height_title_block);
+$(".div_title_r").height(height_title_block);
     
     
     

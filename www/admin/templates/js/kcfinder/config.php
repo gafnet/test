@@ -33,7 +33,7 @@ $_CONFIG = array(
 
     'theme' => "oxygen",
 
-    'uploadURL' => "http://elgazstr.ru/userfiles/upload",
+    'uploadURL' => "http://woodhand.ru/userfiles/upload",
     'uploadDir' => "",
 
     'dirPerms' => 0755,

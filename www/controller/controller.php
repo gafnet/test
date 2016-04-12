@@ -529,12 +529,27 @@ switch($view){
 		$show_right_panel=False;
     break;
 
+    case('test'):
+    break;
+
 	
     default:
         // если из адресной строки получено имя несуществующего вида
         $view = 'home';
         //$eyestoppers = eyestopper('hits');
 }
+
+	//Если включена видимость правой панели, то получаем данные
+	if ($show_right_panel) {
+        /* =====Сортировка===== */
+        $order_db = 'date DESC';
+        // параметры для навигации
+        $perpage = 6; // кол-во товаров на страницу
+
+        $start_pos = 0; // начальная позиция для запроса
+        $products_new = products_by_site(0 , $order_db, $start_pos, $perpage); // получаем массив из модели
+	
+	}
 
 // подключение вида
 require_once $_SERVER['DOCUMENT_ROOT'].'/views/wood/index.php'; // http://ishop/views/ishop/index.php
