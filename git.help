@@ -25,3 +25,12 @@ git checkout -b -new_f
 
 Посмотреть ветки
 git branch
+
+Подключить удаленный репозиторий
+git remote add origin https://github.com/gafnet/test.git
+
+Положить в него данные из ветки master
+git push -u origin master
+
+Посмотреть удаленный репозиторий
+git remote -v
